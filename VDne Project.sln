@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.271
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VDne Project", "VDne Project\VDne Project.csproj", "{FB67FB67-E23A-4107-B32C-FF8C15278F5A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Icons", "Icons", "{4B57E787-606D-4C41-863D-C917321A6EE6}"
+	ProjectSection(SolutionItems) = preProject
+		..\Exit_Icon.png = ..\Exit_Icon.png
+		..\Money_Icon.png = ..\Money_Icon.png
+		..\smartphone_Icon.png = ..\smartphone_Icon.png
+		..\Telegram_Icon.png = ..\Telegram_Icon.png
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB67FB67-E23A-4107-B32C-FF8C15278F5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB67FB67-E23A-4107-B32C-FF8C15278F5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB67FB67-E23A-4107-B32C-FF8C15278F5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB67FB67-E23A-4107-B32C-FF8C15278F5A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {883D3C94-51C7-4F1D-B7D7-9D0DC45D00DF}
+	EndGlobalSection
+EndGlobal
