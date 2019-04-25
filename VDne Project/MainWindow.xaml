@@ -67,7 +67,8 @@
             <Label Grid.Column="0" Margin="10,0,0,0" BorderBrush="White" Foreground="White" FontFamily="Segoe UI Black" FontSize="36" Grid.RowSpan="2"> V </Label>
             <Label Grid.Column="0" Margin="40,0,0,0" Grid.ColumnSpan="2" BorderBrush="White" Foreground="Black" FontFamily="Segoe UI Black" FontSize="36" Grid.RowSpan="2">Dne</Label>
 
-            <Frame Margin="0,15,0,0"  Background="Red" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="12" Grid.RowSpan="8"></Frame>
+            <Frame Name="frame1" Margin="0,15,0,0"  Background="Red" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="12" Grid.RowSpan="8"></Frame>
+            <Button Name="te" Grid.ColumnSpan="2" Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Click="Te_Click"/>
 
 
         </Grid>

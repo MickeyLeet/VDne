@@ -16,24 +16,13 @@ using System.Windows.Shapes;
 namespace VDne_Project
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for RegistrationPage.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class RegistrationPage : Page
     {
-        public MainWindow()
+        public RegistrationPage()
         {
             InitializeComponent();
-          
         }
-
-
-        private void Te_Click(object sender, RoutedEventArgs e)
-        {
-            //frame1.Source = ssss;
-            frame1.Source = new Uri("RegistrationPage.xaml", UriKind.RelativeOrAbsolute);
-
-        }
-
-       
     }
 }
