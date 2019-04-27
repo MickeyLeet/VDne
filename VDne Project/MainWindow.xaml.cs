@@ -23,17 +23,19 @@ namespace VDne_Project
         public MainWindow()
         {
             InitializeComponent();
-          
         }
 
 
-        private void Te_Click(object sender, RoutedEventArgs e)
+        //private void Te_Click(object sender, RoutedEventArgs e)
+        //{
+        //    //frame1.Source = ssss;
+        //    reg_log_frame.Source = new Uri("LoginPage.xaml", UriKind.RelativeOrAbsolute);
+        //    main_frame.Opacity = 0.5;
+        //}
+
+        private void Label_SizeChanged(object sender, SizeChangedEventArgs e)
         {
-            //frame1.Source = ssss;
-            frame1.Source = new Uri("RegistrationPage.xaml", UriKind.RelativeOrAbsolute);
 
         }
-
-       
     }
 }
