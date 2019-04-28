@@ -32,7 +32,7 @@
         </Style>
     </Window.Resources>
 
-    <Grid>
+    <Grid Background="PapayaWhip">
         <Grid>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition></ColumnDefinition>
@@ -61,12 +61,16 @@
             </Grid.RowDefinitions>
             <Rectangle Fill="Black" Grid.ColumnSpan="12" Grid.RowSpan="1" Margin="0,0,0,-5"></Rectangle>
 
+            <!--dsa-->
+            <Label Name="log" Grid.Column="0" Margin="76,-9,24,1.4" BorderBrush="White" Grid.ColumnSpan="5" Foreground="White" FontFamily="Segoe UI Black" FontSize="64" Grid.RowSpan="1">Dne</Label>
+            <Label Grid.Column="0" Margin="27,-17,3.2,9.4" BorderBrush="White"  FontFamily="Segoe UI Black" FontSize="75" Foreground="Red">V</Label>
 
 
-            <Label Grid.Column="0" Margin="30,-8,0,0" BorderBrush="White" Foreground="White" FontFamily="Segoe UI Black" FontSize="64" Grid.RowSpan="1">V</Label>
+            <Label Grid.Column="0" Margin="30,-10,0.2,2.4" BorderBrush="White" Foreground="White" FontFamily="Segoe UI Black" FontSize="64" Grid.RowSpan="1">V</Label>
+            <!--dsa-->
 
 
-            <Frame Name="main_frame" Margin="0,5,0,0"  Background="White" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="12" Grid.RowSpan="8"></Frame>
+            <Frame Name="theme_frame" Margin="0,5,0,0"  Background="red" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="9" Grid.RowSpan="8"></Frame>
 
             <Rectangle Grid.Column="10" Grid.Row="2" Grid.RowSpan="3" Grid.ColumnSpan="2" Margin="-15,-15,10,50" Fill="WhiteSmoke" Stroke="Black" ></Rectangle>
 
@@ -82,7 +86,7 @@
 
 
             <Rectangle Grid.Column="10" Grid.Row="6" Grid.RowSpan="3" Grid.ColumnSpan="2" Margin="-15,-15,10,15"  Fill="WhiteSmoke" Stroke="Black"></Rectangle>
-            
+
             <Label Name="Registration_Label" Grid.ColumnSpan="2" Grid.Column="10" Grid.Row="5" Margin="30,0,55,0"  BorderBrush="Black" FontSize="15" Grid.RowSpan="2" FontFamily="Segoe UI Black" HorizontalAlignment="Center" VerticalAlignment="Center">Registration</Label>
 
             <TextBox Name="RName_TextBox" Grid.Column="10" Grid.Row="6" Grid.ColumnSpan="2" Margin="-5,45,20,10" BorderBrush="Black" FontSize="20" FontFamily="Segoe UI Black"></TextBox>
@@ -97,6 +101,7 @@
 
 
 
+            <Frame IsEnabled="False" Opacity="0" Name="main_frame" Margin="0,5,0,0"  Background="PapayaWhip" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="12" Grid.RowSpan="8"></Frame>
 
         </Grid>
     </Grid>

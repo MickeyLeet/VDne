@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -23,7 +24,9 @@ namespace VDne_Project
         public MainWindow()
         {
             InitializeComponent();
+
         }
+
 
 
         //private void Te_Click(object sender, RoutedEventArgs e)
@@ -36,6 +39,15 @@ namespace VDne_Project
         private void Label_SizeChanged(object sender, SizeChangedEventArgs e)
         {
 
+        }
+
+        private void Dsa_Click(object sender, RoutedEventArgs e)
+        {
+                for (int i = 0; i < 500; i++)
+                {
+                    log.Width = i;
+                    Thread.Sleep(1000);
+            }
         }
     }
 }
